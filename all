@@ -1,0 +1,49 @@
+Sure! Here are the answers to your questions:
+
+Q1. Create an empty list.
+```python
+empty_list = []
+```
+
+Q2. Create a list and add an element to the end of this list.
+```python
+my_list = [1, 2, 3]
+my_list.append(4)
+```
+
+Q3. For the above created list, print the last element.
+```python
+print(my_list[-1])
+```
+
+Q4. Reverse the above created list.
+```python
+my_list.reverse()
+```
+
+Q5. Sort the above created list.
+```python
+my_list.sort()
+```
+
+Q6. Create a list of your top three favorite movies, then print the second movie title.
+```python
+favorite_movies = ["The Shawshank Redemption", "Inception", "The Dark Knight"]
+print(favorite_movies[1])
+```
+
+Q7. Create a list of your favorite animals, then add a new animal to the list and print the updated list.
+```python
+favorite_animals = ["Dog", "Cat", "Elephant"]
+favorite_animals.append("Lion")
+print(favorite_animals)
+```
+
+Q8. Create a list of your favorite cities, then use the `index()` method to find the position of a specific city on the list and print it.
+```python
+favorite_cities = ["New York", "Paris", "Tokyo", "London"]
+city_index = favorite_cities.index("Tokyo")
+print(city_index)
+```
+
+Note: To upload your assignment to GitHub, create a Jupyter notebook or a Python script file (.py) containing the above code. Initialize a new repository on GitHub and push your file to the repository. Finally, share the GitHub repository link with your instructor or the relevant person.
